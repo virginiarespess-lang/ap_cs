@@ -1,24 +1,9 @@
 #include <stdio.h>
 
-void print_1_10()
-{
-    for (int i = 1; i<=10; i++)
-    {
-        printf("%d\n", i);
+int main() {
+    int num [20] = {1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20};
+
+    for (int i=i+5;) {
+        printf("%d\n", num[i]);
     }
 }
-
-void print_2_20()
-{
-    for (int i=2; i<21; i++)
-    {
-        printf("%d\n", i);
-    }
-}
-
-int main()
-{
-    print_1_10();
-    print_2_20();
-}
-
